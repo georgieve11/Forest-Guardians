@@ -412,13 +412,46 @@ footer {
 }
 
 @media (max-width: 768px) {
- 
+    .background {
+        height: fit-content;
+    }
    .burger-menu {
     display: none;
    }
+
+   .posts-container {
+    margin-top: -200px;
+   }
+
+   .various-trees {
+    display: flex;
+    flex-direction: column;
+   }
+
+   .title {
+    font-size: 47px;
+   }
+     .img-types {
+    width: 100%;
+    height: auto;
+  }
+  .share {
+    margin-right: 160px;
+  }
+  .fave
+   {
+        margin-right: 300px;
+  }
+  .img-maple {
+    width: 100%;
+    height: auto;
+  }
   .img-types {
-    width: 250px;
-    height: 125px;
+    margin-right: 128px;
+  }
+  .img-fir {
+    width: 100%;
+    height: auto;
   }
   .posts-container {
     display: flex;
@@ -429,12 +462,17 @@ footer {
     margin-top: 300px;
   }
   .post-info {
-    width: 70%;
+    width: 80%;
   }
   
- 
+  .post-img {
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   footer {
     display: block;
-    margin: 10px 0;
+   
   }
 }
