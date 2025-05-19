@@ -423,6 +423,11 @@ footer {
     margin-top: -200px;
    }
 
+   .img-forest {
+    width: auto;
+    height: auto;
+   }
+
    .various-trees {
     display: flex;
     flex-direction: column;
@@ -435,19 +440,13 @@ footer {
     width: 100%;
     height: auto;
   }
-  .share {
-    margin-right: 160px;
-  }
-  .fave
-   {
-        margin-right: 300px;
-  }
+
   .img-maple {
     width: 100%;
     height: auto;
   }
   .img-types {
-    margin-right: 128px;
+    margin-left: auto;
   }
   .img-fir {
     width: 100%;
@@ -466,9 +465,11 @@ footer {
   }
   
   .post-img {
-    width: 48%;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
+    column-gap: 29px;
+    margin-left: auto;
   }
 
   footer {
